@@ -1,0 +1,54 @@
+// Global CSS Imports
+@import '../../sass/base';
+@import '../../sass/typography';
+
+.goal-list {
+    background-color: $color-primary-dark;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid white;
+
+    .list-table-header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .flex2 {
+            flex: 2;
+        }
+
+        .flex3 {
+            flex: 3;
+        }
+
+        h3 {
+            text-align: left;
+            color: white;
+        }
+
+        .actions-header {
+            text-align: center;
+        }
+    }
+
+    .goal-list-view-container {
+        border-top: 2px solid white;
+
+        .goal-list-view:nth-child(odd) {
+            background-color: #adadad;
+        }
+
+        .goal-list-view:nth-child(even) {
+            background-color: #716f6f;
+        }
+
+        .goal-list-view:last-child {
+            border-radius: 0px 0px 8px 8px;
+        }
+    
+    }
+}

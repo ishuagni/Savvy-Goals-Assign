@@ -1,0 +1,33 @@
+// Global CSS Imports
+@import '../../sass/base';
+@import '../../sass/typography';
+
+.description-container {
+    margin: 40px;
+
+    p, ul {
+        font-family: 'Montserrat_Light';
+        color: #393939;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    li {
+        list-style: none;
+        border-left: 3px solid #dc4f43;
+        padding-left: 1em;
+        margin: 10px 0px;
+    }
+}
+
+.rocket_logo {
+    max-width: 100%;
+    height: auto;
+    width: 750px;
+    display: block;
+    margin: auto;
+}
+
+.sv_logo {
+    width: 200px;
+}
