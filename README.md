@@ -5,7 +5,7 @@ Demo project for creating investment goals
 Frontend of this application is built on React and present in savvy-assign-ui folder
 
 ## Backend Deployment
-Frontend of this application is built on React and present in savvy-assign-ui folder
+Frontend of this application is built on React and present in savvy-assign-api folder
 
 ## Project Information and Coverage
 
